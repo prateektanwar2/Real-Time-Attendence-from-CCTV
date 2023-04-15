@@ -1,0 +1,25 @@
+Modules required to run the Python Code
+
+Note : MySQl needs to be installed on PC to save the Employee identification date and time.
+
+Libraries Required  : 
+    OpenCV i.e cv2
+    face_recognition
+    os
+    numpy
+    datetime
+    mysql.connector
+
+steps:
+
+1. enter password for your MySQL when the program asks.
+2. currently capturing faces from the dataset video. if you capture faces from the live webcam then change the VideoCapture command from
+3. cap  = cv2.VideoCapture('dataset1/Video_clip/VID_20230302_170157.mp4') 
+to
+4. cap = cv2.VideoCapture(0)
+
+
+
+
+
+
